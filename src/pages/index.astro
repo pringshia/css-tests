@@ -1,0 +1,29 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Experiments">
+  <div class="responsive-text">
+    <h2>CSS Experiments</h2>
+    <ol>
+      <li><a href="/01-responsive-type">Responsive Type</a></li>
+    </ol>
+  </div>
+</Layout>
+
+<style>
+  .responsive-text {
+    width: 55ch;
+    margin: 0 auto;
+    font-size: 2.5vw;
+  }
+  li a {
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+  }
+  li a:visited {
+    color: #666;
+    border-color: #666;
+  }
+</style>
